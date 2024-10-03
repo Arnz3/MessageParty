@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 98vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:first-child{
+    height: 15vh;
+}
+
+section:nth-child(2){
+    height: 85vh;
+}
